@@ -93,7 +93,7 @@ traffic_options = st.sidebar.multiselect(
     default = ['Low', 'Medium', 'High', 'Jam'])
 
 st.sidebar.markdown("""---""")
-st.sidebar.markdown('### Powered by Comunidade DS')
+st.sidebar.markdown('### Powered by Wesley Santos')
 
 # filtro de data
 linhas_selecionadas = df1['Order_Date'] < date_slider
